@@ -2,6 +2,8 @@ A scratch game for Cub Scout Pack 163, Den 3/7
 
 Spring 2017
 
+[Scratch project page](https://scratch.mit.edu/projects/148953234/)
+
 # Design
 
 
@@ -62,6 +64,8 @@ A finer grid should make harder gameplay.
 The hero starts at an initial position.  The critters start at an initial position.
 The maze exit is marked.  
 
+![maze](maze.jpg)
+
 Upon maze start, a number of critters spawn at regular intervals.  The number of
 critters depends on the maze level.
 
@@ -76,6 +80,8 @@ If a critter meets a hero, we move to Critter Encounter mode with a backdrop cha
 and/or messge broadcast.
 
 ### Critter Encounter
+
+![critter encounter](critter_encounter.jpg)
 
 Backdrop changes, closeup on the critter.  We can use a clone of the sprite here, at 
 a larger size and in the middle of the backdrop.
@@ -93,6 +99,8 @@ The game goes back to Maze Navigation mode, but the player is moved back to his
 starting position.
 
 ### Boss Battle
+
+![boss battle](boss_battle.jpg)
 
 Backdrop changes, closeup on the boss.  The boss has a health register that
 depends on the level.  
@@ -130,6 +138,8 @@ costumes.    Or we somehow use separate sprites and copy the scripts.
 For the mockup we can use the cat.
 
 ## Critter art
+
+![critter](critter.jpg)
 
 There is only one critter sprite, but he could have different costumes:
 
