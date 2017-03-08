@@ -1,16 +1,11 @@
-# den37-mathmaze
-Math Maze
-!!!!!!!!!
-
 A scratch game for Cub Scout Pack 163, Den 3/7
 
 Spring 2017
 
-Design
-======
+# Design
 
-Core gameplay
--------------
+
+## Core gameplay
 
 The player navigates a hero through a maze.  Along the way he meets critters.
 When the hero meets a critter, the critter challenges the hero with a math fact.
@@ -24,8 +19,8 @@ the boss until he is defeated.
 Successive levels can be harder by a more complicated maze, more critters, and bosses
 with more hit points.  
 
-Extra features
---------------
+## Extra features
+
 
 If we can figure the core gameplay out, we can explore these options:
 
@@ -35,11 +30,9 @@ If we can figure the core gameplay out, we can explore these options:
 
 * Cut scenes.
 
-Implementation
-==============
+# Implementation
 
-Element specification
----------------------
+## Element specification
 
 The hero and critters are sprites.  The maze exit could be another sprite, or
 perhaps a special color.
@@ -62,11 +55,9 @@ Backdrops are 480x360.  Some options for maze grid:
 A finer grid should make harder gameplay.
 
 
-Game modes
-----------
+## Game modes
 
-Maze Navigation
-~~~~~~~~~~~~~~~
+### Maze Navigation
 
 The hero starts at an initial position.  The critters start at an initial position.
 The maze exit is marked.  
@@ -84,8 +75,7 @@ by RestroD has an implementation with Dijkstra's method.
 If a critter meets a hero, we move to Critter Encounter mode with a backdrop change
 and/or messge broadcast.
 
-Critter Encounter
-~~~~~~~~~~~~~~~~~
+### Critter Encounter
 
 Backdrop changes, closeup on the critter.  We can use a clone of the sprite here, at 
 a larger size and in the middle of the backdrop.
@@ -102,8 +92,7 @@ If the answer is incorrect, the critter gives a negative message, possible gestu
 The game goes back to Maze Navigation mode, but the player is moved back to his 
 starting position.
 
-Boss Battle
-~~~~~~~~~~~
+### Boss Battle
 
 Backdrop changes, closeup on the boss.  The boss has a health register that
 depends on the level.  
@@ -116,35 +105,31 @@ a damage register too?  Maybe a time limit?
 If the player health reaches zero, he goes back to the beginning of the level.
 If the boss health reaches zero, he goes to the next level.  
 
-Cut scenes
-~~~~~~~~~~
+### Cut scenes
 
 These can be any kind of animation.  They can go at the start of the game,
 between levels, at the end of the game.
 
-Tasks
-=====
+# Tasks
 
 There are four developers: Felix, Christopher, Kieran, Liam.  Maybe Ethan
 if he joins in.
 
 Artwork can be done within the Scratch editor.
 
-Maze design
------------
+## Maze design
+
 
 We need at least 5 mazes.  Matthew will design one mockup.
 
-Hero art
---------
+## Hero art
 
 One sprite.  Customizeable avatars could be implemented with different 
 costumes.    Or we somehow use separate sprites and copy the scripts.
 
 For the mockup we can use the cat.
 
-Critter art
------------
+## Critter art
 
 There is only one critter sprite, but he could have different costumes:
 
@@ -158,22 +143,19 @@ There is only one critter sprite, but he could have different costumes:
 
 I was using the bat sprite from the Scratch library.
 
-Boss art
---------
+## Boss art
 
 We need at least 5 bosses, with similar expressions as above.
 
 Pick a monster from the scratch library.
 
-Cut scenes
-----------
+## Cut scenes
 
 Opening and closing.  Animated text.  Sounds, maybe?
 
 TODO: Study how to make animations like this.
 
-Scripting
----------
+## Scripting
 
 * Hero maze navigation:
 
