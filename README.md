@@ -6,6 +6,7 @@ Spring 2017
 
 # Design
 
+[Full design poster](fullposter.jpg)
 
 ## Core gameplay
 
