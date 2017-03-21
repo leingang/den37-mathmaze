@@ -12,7 +12,7 @@ Work on the [Under the Sea](http://scratch.ie/sites/all/themes/scratch_theme/res
 
 ### Math Maze team
 
-We need to figure out
+I have a prototype of the [Math Maze](https://scratch.mit.edu/projects/148953234/) game.  We need to figure out:
 
 * who will design what elements (hero, critter, boss, mazes, cut scenes)
 * how to make the critters move better
