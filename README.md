@@ -121,28 +121,45 @@ between levels, at the end of the game.
 
 # Tasks
 
-There are four developers: Felix, Christopher, Kieran, Liam.  Maybe Ethan
-if he joins in.
+There are five developers: Felix ([Glitchypixels](https://scratch.mit.edu/users/Glitchypixles/)), 
+Christopher ([AwesomeKidGamerz](https://scratch.mit.edu/users/AwesomeKidGamerz/)), 
+Kieran ([KMan21207](https://scratch.mit.edu/users/KMan21207/)), 
+Liam ([iplayagario](https://scratch.mit.edu/users/iplayagario/)), Ethan (no username yet).
+Matthew is [sympleko](https://scratch.mit.edu/users/sympleko/) on Scratch.
 
-Artwork can be done within the Scratch editor.
+I formed a studio on Scratch: [Pack 163 Den 3/7](https://scratch.mit.edu/studios/3885613/projects/)
 
 ## Maze design
 
+Liam, Kieran, and Ethan are designing mazes.  Note these specifications!
 
-We need at least 5 mazes.  Matthew will design one mockup.
+* Mazes (backdrops) must be 480x360 pixels in size.
+  If the backdrop is created in scratch, this is the default.
+* Passageways should be at least 50 pixels wide so the characters
+  can get through.
+* The maze walls need to be drawn in red (`#CC0000`) for them to be 
+  recognized as walls.
+
+Artwork can be done within the Scratch editor or an external program.
 
 ## Hero art
 
-One sprite.  Customizeable avatars could be implemented with different 
-costumes.    Or we somehow use separate sprites and copy the scripts.
+We are putting this on the backburner and using Scratchy the cat for now.
 
-For the mockup we can use the cat.
+If in the future we want to add this feature, adding costumes might be 
+the best way. 
 
 ## Critter art
 
+Christopher is in charge of critters.
+
 ![critter](critter.jpg)
 
-There is only one critter sprite, but he could have different costumes:
+The critter is displayed at 50% in the maze and 200% in the encounter.
+So he should fit in a 100x100px box.  Ideally vector rather than bitmap
+(so he scales nicely).
+
+He could have different costumes:
 
  * smiling
 
@@ -152,35 +169,32 @@ There is only one critter sprite, but he could have different costumes:
 
  * shrieking ("Oh nooooooo")
 
-I was using the bat sprite from the Scratch library.
-
 ## Boss art
 
-We need at least 5 bosses, with similar expressions as above.
-
-Pick a monster from the scratch library.
+Ethan is in charge of boss art.  Ideally we want as many bosses as mazes.
 
 ## Cut scenes
 
-Opening and closing.  Animated text.  Sounds, maybe?
-
-TODO: Study how to make animations like this.
+Liam is in charge.  Opening and closing.  Animated text.  Sounds, maybe?
+Squirrels spitting lightning bolts?
 
 ## Scripting
 
+Matthew and Felix.
+
 * Hero maze navigation:
 
-  - legal movement
+  - legal movement: done
 
-  - back to start
+  - back to start: done with one glitch
 
-  - trigger boss battle
+  - trigger boss battle: done 
 
 * Critter movement
 
-  - towards hero (Dijkstra)
+  - towards hero (Dijkstra): not yet.  So far just random.
 
-  - trigger critter encounter
+  - trigger critter encounter: done
 
 * Critter encounter
 
@@ -188,7 +202,7 @@ TODO: Study how to make animations like this.
 
   - check answer and react.
 
-* Boss battle
+* Boss battle: todo
 
   - health bar
 
