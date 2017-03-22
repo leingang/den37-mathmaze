@@ -127,7 +127,10 @@ Kieran ([KMan21207](https://scratch.mit.edu/users/KMan21207/)),
 Liam ([iplayagario](https://scratch.mit.edu/users/iplayagario/)), Ethan (no username yet).
 Matthew is [sympleko](https://scratch.mit.edu/users/sympleko/) on Scratch.
 
-I formed a studio on Scratch: [Pack 163 Den 3/7](https://scratch.mit.edu/studios/3885613/projects/)
+I formed a studio on Scratch: [Pack 163 Den 3/7](https://scratch.mit.edu/studios/3885613/projects/).
+The way collaboration works on Scratch is that people *Remix* the main project, work on their versions,
+then *Share* when they are finished.  I will be able to copy in the changed parts of each individual's
+project into the main project.
 
 ## Maze design
 
